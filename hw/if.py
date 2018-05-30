@@ -11,7 +11,7 @@ elif age >= 18:
 		ageanswer = universitystatus.lower()
 		if ageanswer == 'да':
 			print('Я угадал, иди учись.')
-		if ageanswer == 'нет':
+		elif ageanswer == 'нет':
 			print('Небось уже работаешь, значит.')
 		else: 
 			universitystatus = input('Не понял тебя...так да или нет? ')
